@@ -6,6 +6,9 @@
     <UserSecretsId>1b1618ba-f979-4f43-b4e2-33fc0892683b</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <None Remove="Swashbuckle.AspNetCore" />
   </ItemGroup>
